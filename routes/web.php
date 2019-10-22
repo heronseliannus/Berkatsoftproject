@@ -34,3 +34,8 @@ Route::get('/menuutama/{id}', 'BlogController@show');
 
 Route::get ('/custommer', 'CustommerController@index');
 Route::get('/custommer/{id}', 'CustommerController@show');
+
+// Order
+
+Route::get('/salesorder', 'OrderController@index');
+Route::get('/salesorder/{id}', 'OrderController@show');
