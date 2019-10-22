@@ -13,6 +13,7 @@ class BlogController extends Controller
 
     public function show($id)
     {
+        // dapat diberi pengolahan nilai
         return $id;
     }
 }
