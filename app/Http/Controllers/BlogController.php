@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
