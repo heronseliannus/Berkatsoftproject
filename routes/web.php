@@ -25,7 +25,12 @@ Route::get('home', function()
     return view('dasboard/home');
 });
 
-// controller
+// controller blog
 
 Route::get('/menuutama', 'BlogController@index');
 Route::get('/menuutama/{id}', 'BlogController@show');
+
+//Custommer blog
+
+Route::get ('/custommer', 'CustommerController@index');
+Route::get('/custommer/{id}', 'CustommerController@show');
