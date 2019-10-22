@@ -20,10 +20,10 @@ Route::get('/', function () {
 //     return view('blog/menuutama');
 // });
 
-Route::get('home', function()
-{
-    return view('dasboard/home');
-});
+// Route::get('home', function()
+// {
+//     return view('dasboard/home');
+// });
 
 // controller blog
 
@@ -37,5 +37,5 @@ Route::get('/custommer/{id}', 'CustommerController@show');
 
 // Order
 
-Route::get('/salesorder', 'OrderController@index');
-Route::get('/salesorder/{id}', 'OrderController@show');
+Route::get('/home', 'OrderController@index');
+Route::get('/home/{id}', 'OrderController@show');
