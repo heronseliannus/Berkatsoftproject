@@ -13,7 +13,7 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        // dapat diberi pengolahan nilai
-        return $id;
+        $products = 'ini adalah product' . $id;
+        return view('blog/product', ['products' => $products]);
     }
 }
