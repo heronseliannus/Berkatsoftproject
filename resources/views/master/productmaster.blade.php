@@ -26,6 +26,7 @@
         </tr>
         @endforeach
         </tbody>
+        <button type="submit">Delete </button>
     </table>
 
 </body>
