@@ -3,7 +3,7 @@
     <title>Selamat Datang BerkatSoft< Form Product</title>
 </head>
 <body>
-    <h2> Form Product </h1>
+    <center><h2> Form Product </h1></center>
         <li>Home</li>
         <li>Profile</li>
         <li>About</li>
