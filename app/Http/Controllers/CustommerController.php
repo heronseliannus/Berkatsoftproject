@@ -18,4 +18,9 @@ class CustommerController extends Controller
         return view('blog/custommer', ['list' => $listscustommers]);
     }
 
+    public function edit()
+    {
+        $customers=BD::('customer')->get()
+    }
+
 }
