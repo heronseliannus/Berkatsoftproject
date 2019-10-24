@@ -14,7 +14,7 @@ class BlogController extends Controller
 
     public function show($id)
     {
-        $product = 'ini adalah product' . $id;
+        $product = 'ini adalah product'. $id;
         $products = DB::table('product')->get();
         return view('blog/product', ['products' => $products, 'product' => $product]);
     }
