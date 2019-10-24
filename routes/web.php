@@ -25,6 +25,11 @@ Route::get('/', function () {
 //     return view('dasboard/home');
 // });
 
+Route::get('formproduct', function()
+{
+    return view('dasboard/formproduct');
+});
+
 // controller blog
 
 Route::get('/menuutama', 'BlogController@index');
