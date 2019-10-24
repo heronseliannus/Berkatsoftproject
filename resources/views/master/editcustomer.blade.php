@@ -1,6 +1,6 @@
 <html>
 <head>
-    <h2>ini adalah list product<h2>
+    <h2>EDIT list product<h2>
 <head>
 
 <body>
